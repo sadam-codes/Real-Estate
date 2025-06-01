@@ -14,7 +14,7 @@ const Properties = () => {
     const fetchProperties = async () => {
       try {
         const response = await fetch(
-          "https://real-estate-backend-one-rho.vercel.app/api/residency/Allresidency"
+          "https://real-estate-backend-sand.vercel.app/api/residency/Allresidency"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch properties");
