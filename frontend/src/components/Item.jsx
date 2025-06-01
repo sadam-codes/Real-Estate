@@ -17,7 +17,7 @@ const Item = ({ property }) => {
         <img src={image} alt={title} className="rounded-xl" />
       </div>
       <div className="flex justify-between items-center">
-        <h5 className="bold-16 my-1 text-secondary">{city}</h5>
+        <h5 className="bold-16 my-1 text-black">{city}</h5>
         <span className="bold-16 text-gray-500">{listType}</span>
       </div>
       <h4 className="medium-18 line-clamp-1">{title}</h4>

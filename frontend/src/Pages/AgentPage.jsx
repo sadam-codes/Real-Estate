@@ -129,7 +129,7 @@ const AgentPage = () => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <FaLocationDot className="relative right-4 text-xl hover:text-secondary cursor-pointer" />
+          <FaLocationDot className="relative right-4 text-xl hover:text-black cursor-pointer" />
         </div>
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-10">
           {filteredAgents.length > 0 ? (
@@ -154,10 +154,10 @@ const AgentPage = () => {
                 <div>
                   <div className="flex justify-between items-center">
                     <div className="flex items-center py-2 cursor-pointer">
-                      <AiOutlineMail className="inline-block mr-1 text-secondary" />
+                      <AiOutlineMail className="inline-block mr-1 text-black" />
                       {agent.email}
                     </div>
-                    <h5 className="text-secondary flex items-center cursor-pointer">
+                    <h5 className="text-black flex items-center cursor-pointer">
                       <FaLocationDot className="inline-block mr-1" />
                       {agent.city}
                     </h5>
@@ -165,7 +165,7 @@ const AgentPage = () => {
                   <div className="flex justify-between items-center">
                     <h5 className="medium-16">{agent.title}</h5>
                     <div className="flex items-center">
-                      <BiTime className="inline-block mr-1 text-secondary" />
+                      <BiTime className="inline-block mr-1 text-black" />
                       {agent.experience}
                     </div>
                   </div>

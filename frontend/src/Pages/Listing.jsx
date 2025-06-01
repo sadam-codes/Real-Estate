@@ -105,25 +105,25 @@ const Listing = () => {
         <div className="flex mt-8 space-x-2">
           <button
             onClick={() => handleCategoryChange("All")}
-            className="btn-category btn-secondary rounded-xl !py-[7px]  shadow-sm mb-2 sm:mb-0 sm:w-auto w-full px-2 "
+            className="btn-category btn-black rounded-xl !py-[7px]  shadow-sm mb-2 sm:mb-0 sm:w-auto w-full px-2 "
           >
             All
           </button>
           <button
             onClick={() => handleCategoryChange("BUY")}
-            className="btn-category btn-secondary rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full  "
+            className="btn-category btn-black rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full  "
           >
             BUY
           </button>
           <button
             onClick={() => handleCategoryChange("SELL")}
-            className="btn-category btn-secondary rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full "
+            className="btn-category btn-black rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full "
           >
             SELL
           </button>
           <button
             onClick={() => handleCategoryChange("RENT")}
-            className="btn-category btn-secondary rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full "
+            className="btn-category btn-black rounded-xl !py-[7px] !px-3 shadow-sm mb-2 sm:mb-0 sm:w-auto w-full "
           >
             RENT
           </button>
