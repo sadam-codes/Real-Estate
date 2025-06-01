@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "https://realestate-yt-backend-psi-ebon.vercel.app/api",
+  baseURL: "https://real-estate-backend-one-rho.vercel.app/api",
 });
 
 export const getAllProperties = async () => {
@@ -109,7 +109,7 @@ export const cancelVisit = async (propertyId, email, token) => {
 export const createResidency = async (propertyDetails, token) => {
   try {
     const response = await axios.post(
-      "https://realestate-yt-backend-psi-ebon.vercel.app/api/residency/residency",
+      "https://real-estate-backend-one-rho.vercel.app/api/residency/Allresidency",
       propertyDetails,
       {
         headers: {
