@@ -109,7 +109,7 @@ export const cancelVisit = async (propertyId, email, token) => {
 export const createResidency = async (propertyDetails, token) => {
   try {
     const response = await axios.post(
-      "https://real-estate-backend-one-rho.vercel.app/api/residency/Allresidency",
+      "https://real-estate-backend-one-rho.vercel.app/api/residency",
       propertyDetails,
       {
         headers: {
